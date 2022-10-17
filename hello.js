@@ -11,7 +11,6 @@ function printHelloName (name) {
         }
     } else {
         const fullName = name.join(' ')
-        // issue is here, we are reaching this section
         for (let i = 0; i<5; i++) {
             console.log(`Hello, ${fullName}`)
         }
