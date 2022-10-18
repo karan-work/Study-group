@@ -1,0 +1,23 @@
+{
+  "name": "study-group",
+  "version": "1.0.0",
+  "description": "Automation challenges through W&amp;C",
+  "main": "hello.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karan-work/Study-group.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karan-work/Study-group/issues"
+  },
+  "homepage": "https://github.com/karan-work/Study-group#readme",
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  }
+}
