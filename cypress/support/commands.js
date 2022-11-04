@@ -1,13 +1,16 @@
+// ***********************************************
+// This example commands.js shows you how to
+// create various custom commands and overwrite
+// existing commands.
+//
+// For more comprehensive examples of custom
+// commands please read more here:
+// https://on.cypress.io/custom-commands
+// ***********************************************
+//
+//
 // -- This is a parent command --
-Cypress.Commands.add('logoClick', () => { 
-    cy.visit('https://work.co')
-    cy.get("[data-test-id=global-menu-btn]").click()
- })
-
- Cypress.Commands.add('verifyUrlRedirect', (dataID, urlString) => {
-    cy.get(`[data-test-id=${dataID}]`).click()
-    cy.url().should('eq', urlString)
- })
+// Cypress.Commands.add('login', (email, password) => { ... })
 //
 //
 // -- This is a child command --
